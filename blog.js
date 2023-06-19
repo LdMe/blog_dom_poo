@@ -12,7 +12,7 @@ class Blog {
             post.render();
             form.reset();
         });
-        this.loadPosts();
+        this.loadPosts2();
     }
     loadPosts() {
         let postsJson = localStorage.getItem('posts');
@@ -25,6 +25,12 @@ class Blog {
             post.render();
         });
     }
+    loadPosts2() {
+        alert("te  has cargado el programa!")
+    }
+
 }
+
+
 
 new Blog();
