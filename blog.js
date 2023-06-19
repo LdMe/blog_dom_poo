@@ -28,6 +28,9 @@ class Blog {
     loadPosts2() {
         alert("te  has cargado el programa!")
     }
+    loadPosts3() {
+        alert("099u0oij0j")
+    }
 
 }
 
